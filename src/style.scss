@@ -1,0 +1,50 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background: #e9ebee;
+  header.mainHeader {
+    padding: 10px 0;
+    background: #4267b2;
+    text-align: center;
+    border-bottom: 1px solid #29487d;
+    h1 {
+      margin: 0;
+      color: #fff;
+      font-size: 20px;
+    }
+  }
+  div.post {
+    background: #fff;
+    margin: 30px auto;
+    width: 700px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    img {
+      width: 60px;
+      height: 60px;
+      border-radius: 30px;
+    }
+    div.postInfo {
+      span.userName {
+        font-size: 16px;
+        color: #666;
+        width: 100%;
+        float: left;
+      }
+      span.postedAt {
+        font-size: 14px;
+        color: #333;
+        width: 100%;
+        float: left;
+      }
+    }
+    hr {
+      color: #EEE;
+    }
+    p {
+      font-size: 16px;
+      color: #333;
+    }
+  }
+}
